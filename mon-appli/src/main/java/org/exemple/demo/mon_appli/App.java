@@ -12,7 +12,7 @@ import javax.persistence.Persistence;
  */
 public class App {
 	public static void main(String[] args) {
-		//System.out.println("Hello World!");
+		System.out.println("Hello World!");
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("dbrdvmedecins2");
 		// entityManager
 		EntityManager em = emf.createEntityManager();
